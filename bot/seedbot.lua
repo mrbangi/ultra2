@@ -220,28 +220,25 @@ function create_config( )
     "invite",
     "all"
     },
-    sudo_users = {110626080,103649648,0,tonumber(our_id)},--Sudo users
+    sudo_users = {140925196,0,tonumber(our_id)},--Sudo users
     disabled_channels = {},
-    realm = {},--Realms Id
+    realm = {88012815},--Realms Id
     moderation = {data = 'data/moderation.json'},
-    about_text = [[Teleseed v1
+    about_text = [[UB boxing anti spam v1
 An advance Administration bot based on yagop/telegram-bot 
 
-https://github.com/SEEDTEAM/TeleSeed
+http://uupload.ir/files/iffc_boxing_logo.jpg
+
+
+You can apply for the Group to the directors robot
+Thank
 
 Admins
-@iwals [Founder]
-@imandaneshi [Developer]
-@seyedan25 [Manager]
-
-Special thanks to
-awkward_potato
-Siyanew
-topkecleon
-Vamptacus
+@redteam_ubteam [Founder]
+@Ashkanovich_UB_Admin [Manager]
 
 Our channels
-@teleseedch [English]
+@ubacch
 ]],
     help_text = [[
 Commands list :
